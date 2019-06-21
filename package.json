@@ -1,0 +1,32 @@
+{
+  "name": "fe-build",
+  "version": "1.0.0",
+  "description": "FE Build",
+  "main": "index.html",
+  "scripts": {
+    "build": "NODE_ENV=development gulp build",
+    "build:prod": "NODE_ENV=production gulp build"
+  },
+  "author": "Roger Cornet",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-nunjucks": "^5.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "webpack-stream": "^5.2.1"
+  },
+  "browserslist": [
+    "Edge >= 14",
+    "Safari >= 10",
+    "Chrome >= 56",
+    "Firefox >= 50",
+    "Explorer >= 11",
+    "iOS >= 10.2.1",
+    "Android >= 5"
+  ]
+}
