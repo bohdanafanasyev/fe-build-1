@@ -4,15 +4,16 @@
 [x] Latest ES6 (with support to all browsers)
 [x] NunJucks (Prototyping HTML)
 
-[ ] Develop and compile real time with watch and reload
+[x] Develop and compile real time with watch and reload
 [x] Develop code not minified
-[ ] Lint JS/CSS
-[ ] editorconfig
+[x] Lint JS/CSS
+[x] editorconfig
+[ ] Add custom Bootstrap to the build and in a separate file
 
 PROD ready files (single file) 
-  - [ ] CSS minified
+  - [x] CSS minified
   - [x] JS minified
-  - [ ] HTML minified
-  - [ ] Assets folder
+  - [x] HTML minified
+  - [x] Assets folder
 
 [ ] Every build Test -> travis

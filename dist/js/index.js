@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function(event) {\n  console.log('This is the footer', event)\n});\n\n//# sourceURL=webpack:///./src/js/components/footer.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function (event) {\n  // eslint-disable-next-line no-console\n  console.log('This is the footer', event)\n});\n\n\n//# sourceURL=webpack:///./src/js/components/footer.js?");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function(event) {\n  console.log('This is the header', event)\n});\n\n//# sourceURL=webpack:///./src/js/components/header.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function (event) {\n  // eslint-disable-next-line no-console\n  console.log('This is the header', event)\n});\n\n\n//# sourceURL=webpack:///./src/js/components/header.js?");
 
 /***/ }),
 
@@ -118,7 +118,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/header */ \"./src/js/components/header.js\");\n/* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/footer */ \"./src/js/components/footer.js\");\n\n\n\nwindow.addEventListener('DOMContentLoaded', (event) => {\n  Object(_components_header__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(event)\n  Object(_components_footer__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(event)\n})\n\n//# sourceURL=webpack:///./src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/header */ \"./src/js/components/header.js\");\n/* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/footer */ \"./src/js/components/footer.js\");\n\n\n\nwindow.addEventListener('DOMContentLoaded', (event) => {\n  Object(_components_header__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(event)\n  Object(_components_footer__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(event)\n})\n\n\n//# sourceURL=webpack:///./src/js/index.js?");
 
 /***/ })
 

@@ -1,0 +1,3 @@
+**/*.min.css
+**/dist/
+src/scss/bootstrap/**/*.scss
