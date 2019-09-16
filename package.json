@@ -1,7 +1,7 @@
 {
-  "name": "fe-build",
+  "name": "fe-build-green",
   "version": "1.0.0",
-  "description": "FE Build",
+  "description": "FE Build sample project for NC FE Build Tools Green Badge",
   "main": "index.html",
   "scripts": {
     "lint": "npm-run-all lint:*",

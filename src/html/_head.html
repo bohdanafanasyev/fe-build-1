@@ -5,8 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./css/style.css">
-  <title>{{ pageTitle }} - The Element</title>
+  <title>{{ pageTitle }} - {{ authorName }}</title>
 </head>
 <body>
-  <header class="header">HEADER</header>
-  <main>
+  <header class="rc__header">
+    <div class="container">
+      <h1 class="rc__headerTitle">{{ authorName }}</h1>
+      {% include "./_navigation.html" %}
+    </div>
+  </header>
+  <main class="rc__main">

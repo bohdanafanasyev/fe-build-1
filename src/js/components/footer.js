@@ -1,4 +1,4 @@
-export default function (event) {
+export default function Footer() {
   // eslint-disable-next-line no-console
-  console.log('This is the footer', event)
+  console.log('This is the footer')
 }

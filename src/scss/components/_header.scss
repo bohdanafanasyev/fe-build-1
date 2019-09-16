@@ -1,3 +1,7 @@
-.header {
-  background-color: $green;
+.rc__header {
+  background-color: $gray-400;
+
+  &Title {
+    text-align: center;
+  }
 }
