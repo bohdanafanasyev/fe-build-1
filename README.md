@@ -1,14 +1,27 @@
 # Static Website Front End Build
 
+<<<<<<< HEAD
 This project has been build using `Gulp`, `SCSS`, latest `ES6` –with support to all browsers thanks to `Babel`– and `Nunjucks` as HTML template system.
 
 ## Scripts
+=======
+- [x] Use SASS
+- [x] Latest ES6 (with support to all browsers)
+- [x] NunJucks (Prototyping HTML)
+
+- [x] Develop and compile real time with watch and reload
+- [x] Develop code not minified
+- [x] Lint JS/CSS
+- [x] editorconfig
+- [ ] Add custom Bootstrap to the build and in a separate file
+>>>>>>> 2428fdd7b4eeeab9cba83759894a2686e2abb1a5
 
 #### Development build
 ```
 npm run build
 ```
 
+<<<<<<< HEAD
 #### Production build
 ```
 npm run build:prod
@@ -30,3 +43,6 @@ By running this command, a development server is started by `Browsersync`, and o
 - Lint JS (eslint) and CSS (stylelint)
 - editorconfig
 - Every build Test -> travis
+=======
+- [ ] Every build Test -> travis
+>>>>>>> 2428fdd7b4eeeab9cba83759894a2686e2abb1a5
